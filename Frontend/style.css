@@ -1,0 +1,66 @@
+body{
+font-family:Segoe UI;
+background:linear-gradient(135deg,#E6E6FA,#D8BFD8);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.app{
+background:white;
+padding:30px;
+border-radius:15px;
+width:420px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+color:#7a5ca8;
+}
+
+.input-section{
+display:flex;
+gap:10px;
+margin:20px 0;
+}
+
+input,select{
+padding:10px;
+border-radius:8px;
+border:2px solid #d8bfd8;
+}
+
+button{
+background:#b57edc;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+}
+
+li{
+list-style:none;
+background:#f8f2ff;
+margin:10px 0;
+padding:12px;
+border-radius:8px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.completed{
+text-decoration:line-through;
+opacity:0.6;
+}
+
+.delete-btn{
+background:#ff6b81;
+padding:5px 10px;
+border-radius:6px;
+color:white;
+border:none;
+}
